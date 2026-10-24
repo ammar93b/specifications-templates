@@ -1,6 +1,8 @@
-# Spec templates
+# Specifications templates
 
-Specification templates for all our projects. Every new feature, API, data change or bug fix starts as a filled-in spec. The spec is the single source of truth for building it: if something is not in the spec, it is not built.
+Markdown specification templates for building software, written to work well with AI coding assistants such as Claude. Every new feature, API, data change or bug fix starts as a filled-in spec. The spec is the single source of truth for building it: if something is not in the spec, it is not built.
+
+Each template ends with acceptance criteria, out of scope, edge cases, security impact and threat modeling, so security is considered before any code is written.
 
 ## Which template to use
 
@@ -21,6 +23,11 @@ A bigger feature usually needs more than one spec. For example, "record a goat's
 - `frontend.md` for the form on the phone
 
 Link the specs to each other in their "Related specs" or "Backend dependency" sections. Do not repeat the same details in two specs.
+
+## Get the templates
+
+- Download the latest release from the [Releases](../../releases) page, or
+- Copy a single file from [templates/](templates/) into your project.
 
 ## How to write a spec
 
@@ -48,4 +55,10 @@ When the spec and the code disagree later, fix the spec first, then the code.
 
 ## Changing the templates
 
-Change a template here, not in a project's copy, so every project gets the improvement. Describe the change in the commit message.
+Change a template here, not in a project's copy, so every project gets the improvement. Changes are listed in [CHANGELOG.md](CHANGELOG.md).
+
+Suggestions and improvements are welcome. Open an issue or a pull request.
+
+## License
+
+[MIT](LICENSE). Use, copy and adapt the templates freely, including in commercial work.
